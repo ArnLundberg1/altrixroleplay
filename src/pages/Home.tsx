@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import ServerStats from "@/components/ServerStats";
 import heroBackground from "@/assets/hero-background.png";
 import logo from "@/assets/dust-valley-logo.png";
 
@@ -51,6 +52,9 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* Server Stats Section */}
+      <ServerStats />
 
       {/* Features Section */}
       <section className="py-20 px-4">
